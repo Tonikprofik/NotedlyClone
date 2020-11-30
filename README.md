@@ -1,8 +1,8 @@
 <img src="cover.png" width="200" align="right" />
 
-# .env 
-DB_HOST=mongodb://localhost:27017/notedly
-JWT_SECRET=
+# API for the web client
+https://github.com/Tonikprofik/webnotedly
+
 
 # JavaScript Everywhere API
 
@@ -31,6 +31,10 @@ cp -rf ./final/* ./src/
 To seed data for local development: `npm run seed`. The password for all of the seeded users is `password`.
 
 Each time this command is run, it will generate 10 users and 25 notes.
+
+.env 
+DB_HOST=mongodb://localhost:27017/notedly
+JWT_SECRET=
 
 ## Related Repositories
 
